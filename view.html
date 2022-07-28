@@ -427,11 +427,58 @@ body {font-family: Arial;}
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <form class="row g-3">
+                           <div class="col-2">
+                             <label for="select" class="col-form-label">Profile</label>
+                           </div>
+                           <div class="col-auto">
+                              <select id="Select" class="form-select">
+                                 <option>Disabled select</option>
+                                 <option>Disabled select</option>
+                                 <option>Disabled select</option>
+                              </select>
+                           </div>
+                           <div class="w-100 m-0"></div>
+                           <div class="col-2 m-0">
+                              <label for="state" class="col-form-label">Image:</label>
+                           </div>
+                           <div class="col-auto mt-0">
+                              <input class="form-control w-auto" type="file" id="formFile">
+                           </div>
+                           <div class="w-100 m-0"></div>
+                           <div class="col-auto">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                           </div>
+                           <div class="col-auto">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                           </div>
+                           <div class="w-100 m-0"></div>
+                           <div class="col-2">
+                              <label for="body" class="col-form-label">Body</label>
+                           </div>
+                           <div class="col-9">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                           </div>
+                           <div class="w-100 m-0"></div>
+                           <div class="col-2">
+                              <label for="url" class="col-form-label">URL</label>
+                           </div>
+                           <div class="col-7">
+                              <input type="url" id="url" class="form-control p-2" aria-describedby="utilitystate">
+                           </div>
+                           <div class="w-100 m-0"></div>
+                           <div class="col-2">
+                              <label for="url" class="col-form-label">URL name</label>
+                           </div>
+                           <div class="col-6">
+                              <input type="text" id="url" class="form-control p-2" aria-describedby="utilitystate">
+                           </div>
+                         </form>
                       </div>
                       <div class="modal-footer">
+                        <button type="button" class="modal-btn btn btn-primary">Save and add another</button>
+                        <button type="button" class="modal-btn btn btn-primary">Save and continue editing</button>
                         <button type="button" class="modal-btn btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="modal-btn btn btn-primary">Understood</button>
                       </div>
                     </div>
                   </div>
