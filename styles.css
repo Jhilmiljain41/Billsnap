@@ -541,6 +541,13 @@ input[type=submit]:hover {
   background-color:#3dcd58;
 }
 
+.exist a{
+  color: white;
+}
+.exist a:hover{
+  text-decoration: none;
+  color: white;
+}
 .container {
   border-radius: 30px;
   background-color: #f2f2f2;
@@ -1015,7 +1022,7 @@ body{
 
 .table.table-profile>tbody>tr>td.field {
   width: 20%;
-  text-align: right;
+  text-align: left;
   font-weight: 600;
   color: #2d353c
 }
