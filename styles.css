@@ -1003,6 +1003,9 @@ body{
   font-size: 20px;
   margin-top: 0
 }
+.table.table-profile>thead h6 {
+  color: #04AA6D;
+}
 
 .table.table-profile>thead>tr>th h4 small {
   display: block;
